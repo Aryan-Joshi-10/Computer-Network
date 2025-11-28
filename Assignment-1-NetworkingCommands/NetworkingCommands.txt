@@ -1,0 +1,25 @@
+1. ping: Used to Check the connectivity to a host/IP by sending a ICMP request.
+(Internet Control Message Protocol)
+ping google.com
+
+2. pathping(Windows): Shows the route and packet loss at every hop
+
+3. ipconfig / ifconfig: Refreshes the IP Config details of all network interfaces 
+ifconfig(UNIX) 
+
+4. netstat: Displays Network Connections, routing tables,  interface statistics
+
+5. nbtstat(Windows): Displays NetBIOS over TCP/UDP information.
+
+6. nslookup: Queries Domain Name System (DNS) to get the IP Address from the Domain.
+nslookup google.com
+
+7. route: Shows the rules for connecting to a Path
+
+8. traceroute/tracert:Traces the path a packet takes to reach its destination
+
+9. nmap: It is used for Detecting OS / Port Scanning
+
+10: arp: (Address Resolution Protocol) It converts the IP Address of 32 bit into MAC Address which is of 48 bits.
+arp -a
+arp -a | grep <IP Address>
