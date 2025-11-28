@@ -15,8 +15,10 @@ ifconfig(UNIX)
 nslookup google.com
 
 7. route: Shows the rules for connecting to a Path
+route -n
 
 8. traceroute/tracert:Traces the path a packet takes to reach its destination
+traceroute <host or IP>
 
 9. nmap: It is used for Detecting OS / Port Scanning
 
